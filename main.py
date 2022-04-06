@@ -9,8 +9,8 @@ from PIL import Image, ImageTk
 def watermark(file ,water_mark_text):
     image = Image.open(file)
 
-    image_width=image.size
-    image_height = image.size
+    image_width,image_height =image.size
+    
     draw = ImageDraw.Draw(image)
     # It is done to increase the font sizeof text  with image if it will be fixed number like 50 then for high resolution image it will appear small
     font_size=int(image_width/8)
