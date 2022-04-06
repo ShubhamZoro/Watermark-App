@@ -37,12 +37,7 @@ def open_file():
 window=Tk()
 window.title("Water Mark APP")
 window.geometry('300x200')
-# canvas = Canvas( )
-#
-# img = PhotoImage(file="shubham.png")
-# canvas.create_image(0, 0, image=img)
-# canvas.pack()
-#button
+
 lable=Label(text="Select the image",font=("Arial", 25))
 lable.pack()
 lable.place(relx=0.5, rely=0.3, anchor=CENTER)
